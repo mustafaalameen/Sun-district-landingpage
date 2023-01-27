@@ -139,7 +139,7 @@ nav {
     .hamburger {
         display: block;
         position: absolute;
-        top: .8rem;
+        top: 1.5rem;
         right: 1.1rem;
     }
 
@@ -188,10 +188,11 @@ nav {
         display: none;
     }
 
-    .nav--links {
+    .nav-links {
         /* margin: 16px 0; */
-        /* margin-top: 2rem; */
-        line-height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        /* line-height: 2rem; */
 
     }
 
@@ -206,6 +207,10 @@ nav {
 
     nav {
         padding: 1rem 1.5rem;
+    }
+
+    .nav-logo img{
+        width: 30%;
     }
 }
 
