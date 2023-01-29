@@ -81,13 +81,14 @@ nav {
 }
 
 .nav_center {
-    display: flex;
+    display: grid;
     /* background-color: darksalmon; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     /* width: 60%; */
-    justify-content: center;
-    align-items: center;
-    gap: 2.3rem;
-    flex: 1 1 20%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 2rem;
+    /* flex: 1 1 20%; */
 
 }
 
@@ -184,7 +185,8 @@ nav {
         display: contents;
         text-align: center;
     }
-    .shut{
+
+    .shut {
         display: none;
     }
 
@@ -209,7 +211,7 @@ nav {
         padding: 1rem 1.5rem;
     }
 
-    .nav-logo img{
+    .nav-logo img {
         width: 30%;
     }
 }
@@ -228,9 +230,10 @@ nav {
 }
 
 .header-text h1 {
-    font-family: "NeueMontrealMedium",
+    font-family: "NeueMontrealRegular",
         sans-serif;
-    font-size: 3.6rem;
+    letter-spacing: .2rem;
+    font-size: 4rem;
     color: var(--neutral-clr-white);
 }
 
@@ -239,18 +242,19 @@ nav {
     font-family: "NeueMontrealRegular",
         sans-serif;
     color: var(--neutral-clr-white);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 0 1rem;
-    max-width: 670px;
+    max-width: 60%;
     text-align: center;
     line-height: 2.2rem;
     margin-bottom: 3rem;
+    letter-spacing: .12rem;
 
 }
 
 .header-text-btn {
     display: flex;
-    gap: 1rem;
+    /* gap: 100px; */
 }
 
 .header-text-btn a {
@@ -289,7 +293,7 @@ nav {
     .header-text-btn {
         flex-direction: column;
         align-self: center;
-        gap: 1.5rem;
+        gap: 28px;
     }
 
     .contact {
@@ -767,6 +771,13 @@ img[alt*="map"] {
     gap: 1rem;
     font-size: 1rem;
     color: #1e1b1b;
+    align-items: center;
+}
+
+@media screen and (max-width: 920px) {
+    .blog-items h4 {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -808,6 +819,15 @@ img[alt*="map"] {
         width: 100%;
         /* background-color: #514E4E; */
 
+    }
+
+    .blog-items-footer {
+        align-items: center;
+    }
+
+    .blog-items-footer p {
+        font-size: .85rem;
+        gap: .5rem;
     }
 }
 
