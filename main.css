@@ -392,6 +392,10 @@ nav {
         sans-serif;
 }
 
+.whoweare-text {
+    margin-right: 2rem;
+}
+
 .whoweare-text h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -527,6 +531,7 @@ img[alt="who we're4"] {
 .ourprojects-item>img {
     max-width: 100%;
     height: 100%;
+    margin-right: 2rem;
     /* background-color: aqua; */
 }
 
