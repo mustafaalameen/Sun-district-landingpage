@@ -223,7 +223,7 @@ nav {
     justify-content: center;
     align-items: center;
     /* background-color: aqua; */
-    margin-top: 5rem;
+    margin-top: 15%;
     padding-bottom: 2rem;
     gap: 1rem;
 
@@ -247,7 +247,8 @@ nav {
     max-width: 60%;
     text-align: center;
     line-height: 2.2rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
     letter-spacing: .12rem;
 
 }
@@ -270,6 +271,7 @@ nav {
     background-repeat: no-repeat;
     background-size: 12%;
     background-position: 90%;
+    margin-left: 1.5rem;
 }
 
 @media screen and (max-width: 650px) {
@@ -299,6 +301,10 @@ nav {
     .contact {
         text-align: center;
         width: 100%;
+    }
+
+    .view {
+        margin-top: 1.5rem;
     }
 
 
@@ -366,8 +372,13 @@ nav {
     .whatweoffer-container {
         margin-right: 0;
         margin-left: 0;
-        width: 90%;
+        width: 100%;
     }
+
+    .whatweoffer-items {
+        margin: 1rem 0.5rem 0 .5rem;
+    }
+
 }
 
 /* who we are */
@@ -607,8 +618,9 @@ img[alt*="map"] {
     }
 
     .ourprojects-item>img {
-        max-width: 100%;
+        width: 100%;
         height: 80%;
+        margin-right: 2rem;
         /* margin: 0 auto; */
     }
 }
